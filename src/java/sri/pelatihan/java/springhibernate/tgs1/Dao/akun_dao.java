@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sri.pelatihan.java.springhibernate.tgs1.Dao;
+
+import java.util.List;
+import sri.pelatihan.java.springhibernate.tgs1.model.akun;
+
+/**
+ *
+ * @author acer v5
+ */
+public interface akun_dao {
+    public void saveDataAkun(akun akunModel) throws Exception;
+
+    public List<akun> getListDataAkun() throws Exception;
+
+    public akun getAkunById(String id) throws Exception;
+
+    public void deleteAkun(String id);
+
+    public void updateAkun(akun akunModel);
+
+    public List<akun> getListAkunUpdate(String kode_akun);
+}

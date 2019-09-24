@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+     <class name="sri.pelatihan.java.springhibernate.tgs1.model.nota" table="nota_tbl">
+        <id name="nama_produk" column="nama_produk" type="string">
+            <generator class="assigned" />
+        </id>
+        <property name="harga" column="harga"/>
+        <property name="quantity" column="quantity"/>
+        <property name="jumlah" column="jumlah"/>
+        <property name="total_jumlah" column="total_jumlah"/>
+       
+    </class>
+  
+
+</hibernate-mapping>

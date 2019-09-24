@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/login_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/customer_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertCustomer.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/Dao/nota_dao.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/login_service.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/nota_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/updateDataPengeluaran.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/model/nota.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/stok_produk_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/controller/projek_controller.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/updateDataProduksi.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/pengeluaran_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertProduk.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/tabelAkun.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/kategori_produk_service.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/updateKategori.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/adminMarketPlace.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/akun_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertPengeluaran.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/tabelStok.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/produksi_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/updateDataProduk.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/produk_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/dao/impl/nota_dao_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/updateDataAkun.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertKategori.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/DTO/nota_dto.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/applicationContext.xml</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertPenjualan.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertDelivery.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertProduksi.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/insertAkun.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/delivery_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/model/nota.hbm.xml</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/model/pengeluaran.hbm.xml</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jdbc.properties</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/dao/impl/kategori_dao_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/kataegori_produk_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/jsp/updateDataDelivery.jsp</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/impl/penjualan_service_impl.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/css/style.css</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/Dao/kategori_dao.java</file>
+            <file>file:/E:/dokumen/pelatihan/java/project_inventory/src/java/sri/pelatihan/java/springhibernate/tgs1/service/nota_service.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="sri.pelatihan.java.springhibernate.tgs1.model.penjualan" table="penjualan_tbl">
+        <id name="kode_penjualan" column="kode_penjualan" type="string">
+            <generator class="assigned" />
+        </id>       
+        <property name="kode_produk" column="kode_produk" />
+        <property name="quantity" column="quantity" />
+        <property name="kode_customer" column="kode_customer" />
+       
+    </class>
+  
+
+</hibernate-mapping>

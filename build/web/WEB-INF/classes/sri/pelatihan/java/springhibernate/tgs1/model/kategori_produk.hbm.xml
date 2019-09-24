@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="sri.pelatihan.java.springhibernate.tgs1.model.kategori_produk" table="kategori_tbl">
+        <id name="kode_kategori" column="kode_kategori" type="string">
+            <generator class="assigned" />
+        </id>
+        <property name="nama_kategori" column="nama_kategori"/>
+        <property name="keterangan" column="keterangan" />
+    </class>
+  
+
+</hibernate-mapping>

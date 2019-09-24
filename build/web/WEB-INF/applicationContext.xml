@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- was: <?xml version="1.0" encoding="UTF-8"?> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/tx 
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+    
+    <context:component-scan base-package="sri.pelatihan.java.springhibernate.tgs1.Dao" />
+    <context:component-scan base-package="sri.pelatihan.java.springhibernate.tgs1.service" />
+    
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    <bean id = "sessionFactory" class = "org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="mappingResources">  
+            <list>                                
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/login_model.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/kategori_produk.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/produk.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/stok_produk.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/produksi.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/delivery.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/costomer.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/penjualan.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/akun.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/pengeluaran.hbm.xml</value>
+                <value>sri/pelatihan/java/springhibernate/tgs1/model/nota.hbm.xml</value>
+                
+            </list>  
+        </property>  
+        <property name="hibernateProperties">  
+            <props>  
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>  
+                <prop key="hibernate.hbm2ddl.auto">update</prop>  
+                <prop key="hibernate.show_sql">true</prop>                    
+            </props>  
+        </property>
+    </bean>
+
+    <bean id="propertyConfigurer"
+      class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+      p:location="/WEB-INF/jdbc.properties" />
+
+    <bean id="dataSource"
+      class="org.springframework.jdbc.datasource.DriverManagerDataSource"
+      p:driverClassName="${jdbc.driverClassName}"
+      p:url="${jdbc.url}"
+      p:username="${jdbc.username}"
+      p:password="${jdbc.password}"/>
+    <bean id="loginService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.login_service_impl"></bean>
+    <bean id="loginDao" class="sri.pelatihan.java.springhibernate.dao.impl.login_dao_impl"></bean>
+   <bean id="kategoriService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.kataegori_produk_service_impl"></bean>
+    <bean id="kategoriDao1" class="sri.pelatihan.java.springhibernate.dao.impl.kategori_dao_impl"></bean>
+    <bean id="produkService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.produk_service_impl"></bean>
+    <bean id="produkDao" class="sri.pelatihan.java.springhibernate.dao.impl.produk_dao_impl"></bean>
+    <bean id="produksiService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.produksi_service_impl"></bean>
+    <bean id="produksiDao" class="sri.pelatihan.java.springhibernate.dao.impl.produksi_dao_impl"></bean>
+    <bean id="stokService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.stok_produk_service_impl"></bean>
+    <bean id="stokDao" class="sri.pelatihan.java.springhibernate.dao.impl.stok_produk_dao_impl"></bean>
+    <bean id="deliveryService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.delivery_service_impl"></bean>
+    <bean id="deliveryDao" class="sri.pelatihan.java.springhibernate.dao.impl.delivery_dao_impl"></bean>
+    <bean id="customerService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.customer_service_impl"></bean>
+    <bean id="customerDao" class="sri.pelatihan.java.springhibernate.dao.impl.customer_dao_impl"></bean>
+    <bean id="penjualanService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.penjualan_service_impl"></bean>
+    <bean id="penjualanDao" class="sri.pelatihan.java.springhibernate.dao.impl.penjualan_dao_impl"></bean>
+    <bean id="akunService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.akun_service_impl"></bean>
+    <bean id="akunDao" class="sri.pelatihan.java.springhibernate.dao.impl.akun_dao_impl"></bean>
+    <bean id="pengeluaranService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.pengeluaran_service_impl"></bean>
+    <bean id="pengeluaranDao" class="sri.pelatihan.java.springhibernate.dao.impl.pengeluaran_dao_impl"></bean>
+    <bean id="notaService" class="sri.pelatihan.java.springhibernate.tgs1.service.impl.nota_service_impl"></bean>
+    <bean id="notaDao" class="sri.pelatihan.java.springhibernate.dao.impl.nota_dao_impl"></bean>
+</beans>
